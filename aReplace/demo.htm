@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Example: aReplace</title>
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="container2">
+				<a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ">Google</a>
+			</div>			
+		</div>
+		<a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ">Google</a>
+
+		<!-- Import aReplace -->
+		<script src="aReplace.min.js"></script>
+
+		<script>
+			aReplace(
+				{
+					// Run through the container element
+					container: document.getElementById('container'),
+					// Recurse through the child elements of it (so will pass onto container2)
+					recursive: true, 
+					// Make the link appear as http://www.georgep.co.uk/
+					text: 'http://www.google.co.uk/'
+				}
+			);
+		</script>
+
+	</body>
+</html>
