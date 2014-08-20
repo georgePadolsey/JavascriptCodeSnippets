@@ -1,7 +1,7 @@
 Gun Test
 ========
 
-> This project can run though it is very bad code / provides very little substance for a program :warning:
+> This project can run though it is very bad code / provides very little substance for a program (doesn't work correctly) :warning:
 
 Made in 2011
 

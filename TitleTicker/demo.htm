@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<!--FallBackTitleText-->
+		<title>|Demo: Title Ticker|</title>
+		<!--END-->
+	</head>
+	<body>
+	
+		<p>Look at the pages title</p>
+
+		<!-- Import TitleTicker -->
+		<script src="TitleTicker.js"></script>
+
+		<script>
+			var t = TitleTicker.tick({
+
+			});
+
+			setTimeout(function() {
+				t.stop().blink({
+
+				});
+			}, 5000);
+		</script>
+	</body>
+</html>
